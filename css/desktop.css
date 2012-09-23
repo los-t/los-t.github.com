@@ -1,0 +1,35 @@
+h1 {
+	color:gray;
+	font-family:"Sans";
+}
+
+p {
+	margin-left:10px;
+	margin-right:10px;
+
+}
+
+.landing {
+	background-color:black;
+	color:green;
+	margin:1% 1% auto;
+}
+
+.content {
+	color:green;
+	font-family:"Monospace";
+	text-align:justify;
+}
+
+.header {
+	background-color:black;
+}
+
+.footer {
+	color:gray;
+	font-family:"Sans";
+}
+
+.logo {
+	color:gray;
+}
