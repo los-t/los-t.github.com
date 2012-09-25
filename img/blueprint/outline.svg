@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
+     inkscape:zoom="0.5"
      inkscape:cx="530.32146"
-     inkscape:cy="172.73779"
+     inkscape:cy="455.5805"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -219,9 +219,9 @@
          id="text3776"
          y="309.70593"
          x="253.85938"
-         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
          xml:space="preserve"><tspan
-           style="font-size:32px"
+           style="font-size:32px;fill:#00ff00"
            y="309.70593"
            x="253.85938"
            id="tspan3778"
@@ -263,9 +263,9 @@
              x="269.28711"
              y="343.63562"
              style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#008000;font-family:Monospace;-inkscape-font-specification:Monospace">[<tspan
-   style="fill:#666666"
+   style="fill:#808080"
    id="tspan3972">dvn</tspan>@tech <tspan
-   style="fill:#666666"
+   style="fill:#808080"
    id="tspan3982">2012-09-25</tspan>]<tspan
    style="fill:#00ff00"
    id="tspan3986">$ </tspan></tspan><tspan
@@ -288,7 +288,7 @@
              style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#00ff00;font-family:Monospace;-inkscape-font-specification:Monospace">How and Why Did I migrate to GitHub Pages?</tspan></text>
       </g>
       <flowRoot
-         transform="translate(-0.41992188,-0.1219132)"
+         transform="matrix(0.96639183,0,0,1,9.2733439,-0.1219132)"
          id="flowRoot4044"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
          xml:space="preserve"><flowRegion
@@ -322,9 +322,9 @@
              x="269.28711"
              y="343.63562"
              style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#008000;font-family:Monospace;-inkscape-font-specification:Monospace">[<tspan
-   style="fill:#666666"
+   style="fill:#808080"
    id="tspan3972-0">dvn</tspan>@word <tspan
-   style="fill:#666666"
+   style="fill:#808080"
    id="tspan3982-4">2012-09-25</tspan>]<tspan
    style="fill:#00ff00"
    id="tspan3986-6">$ </tspan></tspan><tspan
@@ -352,7 +352,7 @@
              style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#00ff00;font-family:Monospace;-inkscape-font-specification:Monospace">And this is just to illustrate 2-line header.</tspan></text>
       </g>
       <flowRoot
-         transform="translate(-0.41992188,303.87809)"
+         transform="matrix(0.96639183,0,0,1,9.2733439,303.87809)"
          id="flowRoot4044-1"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
          xml:space="preserve"><flowRegion
