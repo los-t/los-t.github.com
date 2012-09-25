@@ -1,0 +1,11 @@
+auto : true
+
+title : DVNtty
+
+author :
+  name : Vladimir Dranyonkov
+  email : los-t@ya.ru
+  github : los-t
+  twitter : lostdvn
+
+production_url : http://dvntty.info
