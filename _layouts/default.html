@@ -5,19 +5,33 @@
 	<meta charset="UTF-8" />
 	<meta name="Description" content="DVNtty Entry Point" />
 	<meta name="Author" content="Vladimir 'dvn' Dranyonkov" />
-	<title>DVNtty Entry Point</title>
+	<title>{{ page.title }}</title>
 	<link rel=stylesheet type=text/css href=css/desktop.css />
 </head>
 
-<body class="landing">
+<body>
 
-<div class="header">
-	<div class="logo"><h1>DVNtty</h1></div>
+<div class="container">
+
+<header>
+	<div class="header">{{ page.title }}
+	<nav class="navbar">
+		<div class="button">.tech</div>
+		<div class="button">.word</div>
+		<div class="button">.hand</div>
+		<div class="button">.self</div>
+	</nav>
+	</div>
+</header>
+
+<div class="content">
+{{ content }}
 </div>
 
-{{ content }}
-
-<div class="footer">&copy; 2012, Vladimir 'dvn' Dranyonkov</div>
+<footer>
+	<div class="copyright">&copy; 2012, Vladimir 'dvn' Dranyonkov</div>
+</footer>
+</div> <!-- Container -->
 
 </body>
 </html>

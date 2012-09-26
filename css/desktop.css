@@ -1,35 +1,80 @@
-h1 {
-	color:gray;
-	font-family:"Sans";
+/********************
+ * Setting defaults *
+ ********************/
+article, aside, figure, footer, header, hgroup, nav, section {
+ display : block;
+}
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+html, body {
+ height: 100%;
+}
+
+body {
+ background-color : black;
+ color : green;
+ font-size : 100%;
+ font-family : monospace;
+ text-align : justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-size: 100%;
+ color : lime;
+ margin-bottom : 1em;
 }
 
 p {
-	margin-left:10px;
-	margin-right:10px;
-
+ margin-left : 1em;
+ margin-right: 1em;
+ margin-bottom: 1em;
 }
 
-.landing {
-	background-color:black;
-	color:green;
-	margin:1% 1% auto;
-}
+/*******************
+ * End of defaults *
+ *******************/
 
-.content {
-	color:green;
-	font-family:"Monospace";
-	text-align:justify;
+.container {
+ margin-left : auto;
+ margin-right : auto;
+ width : 50em;
 }
 
 .header {
-	background-color:black;
+ width : 100%;
+ height : 100%;
+ margin-top: 1em;
 }
 
-.footer {
-	color:gray;
-	font-family:"Sans";
+.navbar {
+ margin : 0em;
+ padding : 0em;
+ height : 2em;
+ border : 0px;
+ padding : 0px;
+ float : right;
 }
 
-.logo {
-	color:gray;
+.button {
+ background-color : green;
+ color : black;
+ border : 1px solid black;
+ width : 4em;
+ text-align : center;
+ float : left;
+}
+
+.content {
+ width : 48em;
+ height: 100%;
+ padding : 1em;
+ border: 1px solid green;
+}
+
+.copyright {
+ text-align : right;
 }
