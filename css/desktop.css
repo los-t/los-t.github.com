@@ -24,6 +24,7 @@ body {
 }
 
 footer {
+ clear: both;
  padding-top: 2px;
 }
 
@@ -71,6 +72,19 @@ a:hover {
  border: 1px solid green;
 }
 
+.post-title {
+ float: left;
+}
+
+.publish-date {
+ float: right;
+ color: limegreen;
+}
+
+.post-text {
+ clear: both;
+}
+
 .copyright {
  text-align : right;
 }
@@ -79,7 +93,6 @@ a.button {
  width : 4em;
  color : black;
  background-color : green;
- display : block;
  border-left: 1px solid black;
  border-bottom: 1px solid black;
  text-decoration: none;
@@ -90,16 +103,3 @@ a.button {
 a.button:hover {
  background-color : lime;
 }
-
-.post-title {
- float: left;
-}
-
-.publish-date {
- float: right;
-}
-
-.post-text {
- clear: both;
-}
-
