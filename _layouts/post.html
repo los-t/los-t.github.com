@@ -5,7 +5,7 @@
 	<meta charset="UTF-8" />
 	<meta name="Description" content="DVNtty Entry Point" />
 	<meta name="Author" content="Vladimir 'dvn' Dranyonkov" />
-	<title>DVNtty{{ page.title }}</title>
+	<title>DVNtty.{{ page.category}} : {{ page.title }}</title>
 	<link rel=stylesheet type=text/css href=/css/desktop.css />
 </head>
 
@@ -15,7 +15,7 @@
 
 <header>
 	<div class="logo">
-		<a class="logo" href="/">DVNtty</a>{{ page.title }}
+		<a class="logo" href="/">DVNtty</a>.{{ page.category }}
 	</div>
 	<nav>
 		<a class="button" href="/self">.self</a>
@@ -26,7 +26,18 @@
 </header>
 
 <div class="content">
-{{ content }}
+
+	<h1 class="post-title">
+		{{ page.title }}
+	</h1>
+
+	<div class="publish-date">
+		{{ page.date}}
+	</div>
+
+	<div class="post-text">
+		{{ content }}
+	</div>
 </div>
 
 <footer>

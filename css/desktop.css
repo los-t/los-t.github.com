@@ -88,5 +88,18 @@ a.button {
 }
 
 a.button:hover {
-	background-color : lime;
+ background-color : lime;
 }
+
+.post-title {
+ float: left;
+}
+
+.publish-date {
+ float: right;
+}
+
+.post-text {
+ clear: both;
+}
+
