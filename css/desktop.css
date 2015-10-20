@@ -103,3 +103,18 @@ a.button {
 a.button:hover {
  background-color : lime;
 }
+
+ul.posts-list {
+ list-style-type: none;
+ margin-left: 1em;
+ margin-rignt: 1em;
+}
+
+ul.posts-list a {
+ color: green;
+ text-decoration: none;
+}
+
+ul.posts-list a:hover {
+ color: lime;
+}
