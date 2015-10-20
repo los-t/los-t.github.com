@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<p>Thirteen most-recent publications:</p>
-<ul>
+Thirteen most-recent publications:
+<p/>
+
+<ul class="posts-list">
 {% for post in site.posts limit:13 %}
 	<li>
 		<a href="{{ post.url }}">
