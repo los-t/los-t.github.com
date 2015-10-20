@@ -3,7 +3,7 @@
 
 <head>
 	{% include meta.html %}
-	<title>DVNtty</title>
+	<title>DVNtty.{{ page.category}}</title>
 </head>
 
 <body>
@@ -12,13 +12,13 @@
 
 <header>
 	<div class="logo">
-		<a class="logo" href="/">DVNtty</a>
+		<a class="logo" href="/">DVNtty</a>.{{ page.category }}
 	</div>
 	{% include nav.html %}
 </header>
 
 <div class="content">
-{{ content }}
+	{{ content }}
 </div>
 
 {% include footer.html %}
