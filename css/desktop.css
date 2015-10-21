@@ -18,9 +18,10 @@ html, body {
 body {
  background-color : black;
  color : green;
- font-size : 100%;
  font-family : monospace;
  text-align : justify;
+ padding-left: 1em;
+ padding-right: 1em;
 }
 
 footer {
@@ -42,6 +43,7 @@ p {
 
 a {
  color: seagreen;
+ text-decoration: none;
 }
 
 a:hover {
@@ -56,7 +58,8 @@ a:hover {
  padding-top : 1em;
  margin-left : auto;
  margin-right : auto;
- width : 50em;
+ min-width: 700px;
+ max-width: 1000px;
 }
 
 .logo {
@@ -90,7 +93,7 @@ a:hover {
 }
 
 a.button {
- width : 4em;
+ min-width : 4em;
  color : black;
  background-color : green;
  border-left: 1px solid black;
@@ -108,11 +111,11 @@ ul.posts-list {
  list-style-type: none;
  margin-left: 1em;
  margin-rignt: 1em;
+ text-align: left;
 }
 
 ul.posts-list a {
  color: green;
- text-decoration: none;
 }
 
 ul.posts-list a:hover {
