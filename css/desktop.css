@@ -94,6 +94,7 @@ a:hover {
 
 a.button {
  min-width : 4em;
+ padding-top: 2px;
  color : black;
  background-color : green;
  border-left: 1px solid black;
