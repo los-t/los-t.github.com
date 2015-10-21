@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Дорогами разными...
+stubtitle: yes
 category: word
 date: 2015-06-20 16:23
 type: S
