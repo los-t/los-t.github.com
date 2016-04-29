@@ -92,6 +92,10 @@ a:hover {
  text-align : right;
 }
 
+.license {
+ float: left;
+}
+
 a.button {
  min-width : 4em;
  padding-top: 2px;
